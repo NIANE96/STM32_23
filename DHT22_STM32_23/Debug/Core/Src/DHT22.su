@@ -1,0 +1,4 @@
+timer.h:10:22:DWT_Delay_us	24	static
+DHT22.c:6:6:Data_Output	40	static
+DHT22.c:15:6:Data_Input	40	static
+DHT22.c:24:6:Read_data	24	static
