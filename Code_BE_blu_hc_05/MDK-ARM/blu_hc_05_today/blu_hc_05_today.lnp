@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"blu_hc_05_today\startup_stm32l152xe.o"
+"blu_hc_05_today\my_dht22.o"
+"blu_hc_05_today\main.o"
+"blu_hc_05_today\stm32l1xx_it.o"
+"blu_hc_05_today\stm32l1xx_hal_msp.o"
+"blu_hc_05_today\stm32l1xx_hal_i2c.o"
+"blu_hc_05_today\stm32l1xx_hal.o"
+"blu_hc_05_today\stm32l1xx_hal_rcc.o"
+"blu_hc_05_today\stm32l1xx_hal_rcc_ex.o"
+"blu_hc_05_today\stm32l1xx_hal_flash.o"
+"blu_hc_05_today\stm32l1xx_hal_flash_ex.o"
+"blu_hc_05_today\stm32l1xx_hal_flash_ramfunc.o"
+"blu_hc_05_today\stm32l1xx_hal_gpio.o"
+"blu_hc_05_today\stm32l1xx_hal_dma.o"
+"blu_hc_05_today\stm32l1xx_hal_pwr.o"
+"blu_hc_05_today\stm32l1xx_hal_pwr_ex.o"
+"blu_hc_05_today\stm32l1xx_hal_cortex.o"
+"blu_hc_05_today\stm32l1xx_hal_exti.o"
+"blu_hc_05_today\stm32l1xx_hal_tim.o"
+"blu_hc_05_today\stm32l1xx_hal_tim_ex.o"
+"blu_hc_05_today\stm32l1xx_hal_uart.o"
+"blu_hc_05_today\system_stm32l1xx.o"
+--library_type=microlib --strict --scatter "blu_hc_05_today\blu_hc_05_today.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "blu_hc_05_today.map" -o blu_hc_05_today\blu_hc_05_today.axf
